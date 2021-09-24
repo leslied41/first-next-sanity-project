@@ -7,7 +7,9 @@ export default function Clips({ data }) {
   if (data.length == 0) {
     return (
       <main className={styles.main}>
-        <h2 className={styles.h2}>Oops...Screw you guys, I'm going home!</h2>
+        <h2 className={styles.h2}>
+          Oops...Screw you guys, I&apos;m going home!
+        </h2>
       </main>
     );
   }
