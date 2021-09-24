@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+.main {
+  min-height: 100vh;
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 250, 229, var(--tw-bg-opacity));
+  padding: 3rem;
+}
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+  font-size: 5rem;
+  margin: 0;
+}
+.h2 {
+  display: flex;
+  justify-content: center;
+  --tw-text-opacity: 1;
+  color: rgba(75, 85, 99, var(--tw-text-opacity));
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin: 0;
+}
+.grid {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  display: grid;
+  gap: 2rem;
+}
+@media screen and (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    display: grid;
+    gap: 2rem;
+  }
+}
+
+.article {
+  border-radius: 0.5rem;
+  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  padding: 1.5rem;
+}
+.title {
+  --tw-text-opacity: 1;
+  color: rgba(31, 41, 55, var(--tw-text-opacity));
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.title:hover {
+  --tw-text-opacity: 1;
+  color: rgba(185, 28, 28, var(--tw-text-opacity));
+}
+.bottom {
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
+  font-size: 0.75rem;
+  line-height: 1rem;
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.description {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.275rem;
+  line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
+  line-height: 1.625;
+}
+.link {
+  display: flex;
+  justify-content: flex-end;
+}
+.youtube {
+  margin-left: 1rem;
+}
+.youtube:hover {
+  --tw-text-opacity: 1;
+  color: rgba(185, 28, 28, var(--tw-text-opacity));
+}

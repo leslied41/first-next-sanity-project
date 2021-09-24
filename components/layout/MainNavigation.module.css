@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+.header {
+  --tw-bg-opacity: 1;
+  background-color: rgba(220, 38, 38, var(--tw-bg-opacity));
+}
+
+.div1 {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.nav {
+  display: flex;
+}
+
+.nav ul {
+  list-style: none;
+  margin-top: -0.5rem;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+.nav li {
+  margin-left: 3rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 0.5rem;
+  border-radius: 0.5rem;
+}
+.postactive {
+  --tw-bg-opacity: 1;
+  background-color: rgba(185, 28, 28, var(--tw-bg-opacity));
+}
+.projectactive {
+  --tw-bg-opacity: 1;
+  background-color: rgba(185, 28, 28, var(--tw-bg-opacity));
+}
+.aboutactive {
+  --tw-bg-opacity: 1;
+  background-color: rgba(185, 28, 28, var(--tw-bg-opacity));
+}
+.southpark {
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+}
+.nav li:hover {
+  --tw-text-opacity: 1;
+  color: rgba(6, 95, 70, var(--tw-text-opacity));
+}
+.icons {
+  display: inline-flex;
+  margin-top: 1.5rem;
+  margin-right: 7rem;
+}

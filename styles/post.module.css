@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+.main {
+  min-height: 100vh;
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 250, 229, var(--tw-bg-opacity));
+  padding: 3rem;
+}
+.section {
+  margin-left: auto;
+  margin-right: auto;
+}
+.h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+  font-size: 5rem;
+  margin: 0;
+}
+.h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  --tw-text-opacity: 1;
+  color: rgba(75, 85, 99, var(--tw-text-opacity));
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 1264px) {
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    display: grid;
+    gap: 2rem;
+  }
+}
+.item {
+  display: block;
+  position: relative;
+  height: 20rem;
+  width: 18rem;
+  border-radius: 0.25rem;
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  line-height: 1.375;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  border-left-width: 8px;
+  --tw-border-opacity: 1;
+  border-color: rgba(52, 211, 153, var(--tw-border-opacity));
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  position: absolute;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+.name {
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.h3 {
+  --tw-text-opacity: 1;
+  color: rgba(31, 41, 55, var(--tw-text-opacity));
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(185, 28, 28, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(254, 226, 226, var(--tw-text-opacity));
+  --tw-bg-opacity: 0.75;
+  border-radius: 0.25rem;
+}
+.article:hover {
+  cursor: pointer;
+}
