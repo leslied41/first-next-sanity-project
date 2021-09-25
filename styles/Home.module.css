@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
 
 .main {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,8 +10,7 @@
 
 .section {
   position: absolute;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 .section h1 {
   font-family: "Amatic SC", cursive;
