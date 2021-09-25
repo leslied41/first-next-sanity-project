@@ -24,8 +24,16 @@
 
 @media screen and (max-width: 1000px) {
   .section {
-    width: 30rem;
-    margin-top: 10rem;
+    width: 25rem;
+    flex-direction: column;
+    padding: 0.5rem;
+    align-items: center;
+    gap: 0;
+
+    margin-top: 3rem;
+  }
+  .text {
+    margin-left: 0rem;
   }
 }
 .img {
