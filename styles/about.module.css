@@ -21,6 +21,13 @@
   padding: 3rem;
   color: aliceblue;
 }
+
+@media screen and (max-width: 1000px) {
+  .section {
+    width: 30rem;
+    margin-top: 5rem;
+  }
+}
 .img {
   border-radius: 50%;
   height: 10rem;

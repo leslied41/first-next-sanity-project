@@ -10,7 +10,7 @@ export default function NavBar() {
     <header className={styles.header}>
       <div className={styles.div1}>
         <nav className={styles.nav}>
-          <ul>
+          <ul className={styles.ul}>
             <li className={styles.southpark}>
               <Link href="/" exact>
                 South Park

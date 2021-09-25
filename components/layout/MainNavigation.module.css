@@ -14,7 +14,12 @@
 .nav {
   display: flex;
 }
-
+@media screen and (max-width: 600px) {
+  .ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .nav ul {
   list-style: none;
   margin-top: -0.5rem;
