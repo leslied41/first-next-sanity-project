@@ -18,12 +18,14 @@ export default function profile({ title, body, name, mainImage, authorImage }) {
             <div className={styles.div2}>
               <h1 className={styles.h1}>{title}</h1>
             </div>
+            <div>
+              <img
+                src={urlFor(mainImage)}
+                alt={title}
+                className={styles.mainImage}
+              />
+            </div>
           </div>
-          <img
-            src={urlFor(mainImage)}
-            alt={title}
-            className={styles.mainImage}
-          />
         </header>
         <div className={styles.bodyContent}>
           <BlockContent
