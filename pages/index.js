@@ -6,7 +6,7 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Image src={image} alt="south park" layout="fill" />
+      {/* <Image src={image} alt="south park" layout="fill" /> */}
 
       <section className={styles.section}>
         <h1 className="text-7xl text-green-100 font-bold cursive leading-none lg:leading-snug home-name">
